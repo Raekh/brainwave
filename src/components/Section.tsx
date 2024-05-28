@@ -5,8 +5,8 @@ import SectionSvg from "../assets/svg/SectionSvg";
 type SectionProps = Partial<{
   className: string;
   id: string;
-  crosses: any;
-  crossesOffset: any;
+  crosses: boolean;
+  crossesOffset: string;
   customPaddings: string;
 }>;
 
